@@ -41,6 +41,11 @@ operator_t asmodhex = {
 
 > Chercheur indépendant en sécurité offensive, spécialisé en **recherche de vulnérabilités** sur le kernel Linux, les firmwares, le mobile et le matériel. J'accompagne les organisations dans l'identification de surfaces d'attaque critiques et l'analyse de leurs systèmes jusqu'au niveau le plus bas.
 
+
+> Suivez le Lapin Blanc.
+
+
+
 ## <img src="https://img.shields.io/badge/-22D3EE?style=flat-square&logo=target&logoColor=060B14" height="18"/> Domaines de recherche
 
 | | Surface | Focus |
