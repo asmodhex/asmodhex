@@ -9,13 +9,33 @@
 </div>
 
 ```c
-/* 0x00 READY -- session active */
-struct researcher {
-    const char *handle;       /* asmodhex                              */
-    const char *focus;        /* vulnerability research / reverse eng. */
-    const char *building;     /* Aegis AI - AI-powered binary analysis */
-    const char *domains[5];   /* kernel, firmware, mobile, hw, rf      */
-    int         js_required;  /* 0 - le portfolio tourne sans JS       */
+/*
+ * ASMODHEX // SECURITY RESEARCHER
+ * -----------------------------------------------
+ * Status  : ACTIVE
+ * Location: Corsica, France
+ * Focus   : Vulnerability Research & Reverse Engineering
+ */
+
+typedef struct {
+    const char *codename;
+    const char *mission;
+    const char *project;
+    const char *specialties[6];
+} operator_t;
+
+operator_t asmodhex = {
+    .codename    = "ASMODHEX",
+    .mission     = "Discovering vulnerabilities before adversaries do",
+    .project     = "Aegis AI",
+    .specialties = {
+        "Binary Analysis",
+        "Reverse Engineering",
+        "Kernel Research",
+        "Firmware Security",
+        "Fuzzing",
+        "Offensive AI"
+    }
 };
 ```
 
